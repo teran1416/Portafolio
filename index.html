@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    ,<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body class="body">
+<header class="header">
+    <a href="#" class="logo">Portafolio</a>
+
+    <nav class="navbar">
+        <a href="#home" style="--i:1" class="active">Home</a>
+        <a href="#about" style="--i:2">About</a>
+        <a href="#services" style="--i:3">Services</a>        
+        <a href="#section" style="--i:3">Skill</a>
+    </nav>
+    <nav class="navbarTogle">
+        <div class="menu-toggle" onclick="toggleMenu()">â˜°</div>
+        <ul class="nav-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#section">Skill</a></li>
+        </ul>
+      </nav>
+</header>
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hola, soy yo</h3>
+        <h1>Juan Pablo Terán</h1>
+        <h3>Y soy un <span class="text"></span></h3>
+        <p>Soy Estudiante de noveno semestre de Ingeniería de Sistemas con experiencia en desarrollo de software y manejo de bases de datos. Poseo habilidades en programación web y móvil, además de un interés marcado por la inteligencia artificial.</p>
+        <!-- <br>my experience -->
+        <div class="home-sci">
+            <a href="https://www.linkedin.com/in/juan-pablo-teran-hernández-8b666b379/" target="_blank" style="--i:7"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/teran1416" target="_blank"  style="--i:8"><i class="bx bxl-github"></i></a>
+        </div>
+        <a href="#" class="btn-box">More About Me</a>
+    </div>
+
+    <div class="profile-wrap">
+        <div class="profile-photo"></div>
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="./resource/image.png" alt="">
+    </div>
+        <div class="about-text">
+        <h2>Sobre <span>mí</span></h2>
+        <h4>Desarrollador</h4>
+        <p>Poseo habilidades en programación web y móvil, además de un interés marcado por la inteligencia artificial. Me destaco por mi rápida capacidad de aprendizaje, pensamiento analítico y disposición para asumir nuevos retos. Busco oportunidades para aplicar y fortalecer mis conocimientos, así como aportar soluciones eficientes e innovadoras dentro de equipos de trabajo.</p>
+            <a href="assets/curriculum.pdf" class="btn-box" download="curriculum.pdf">More About Me</a>
+    </div>
+
+</section>
+<section class="services" id="services">
+    <div class="container">
+        <h1 class="sub-title">Mis <span>Servicios</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="bx bx-code" style="color: #00eeff;"></i>
+                <h2>Desarrollador Frontend</h2>
+                <p>Poseo habilidades básicas en tecnologías como HTML, CSS, JavaScript y Vue.js.</p>
+            </div>
+            <div>
+                <i class="bx bx-code" style="color: #00eeff;"></i>
+                <h2>Desarrollador Full Stack</h2>
+                <p>Poseo habilidades básicas en tecnologías como Node.js, Oracle, Supabase, MongoDB y Firebase.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="section">
+    <div class="container1">
+        <h1 class="heading1">Habilidades Técnicas</h1>
+        <div class="Technical-bars">
+            <div class="bar"><i style="color: #c95d2e;" class='bx bxl-html5'></i>
+                <div class="info">
+                    <samp>HTML</samp>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i style="color: #147bbc;" class='bx bxl-css3' ></i>
+                <div class="info">
+                    <samp>CSS</samp>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>  
+            <div class="bar"><i style="color: #b0bc1e;" class='bx bxl-javascript' ></i>
+                <div class="info">
+                    <samp>JavaScript</samp>
+                </div>
+                <div class="progress-line javascript">
+                    <span></span>
+                </div>
+            </div> 
+            <div class="bar"><i style="color: #c32ec9;" class='bx bxl-python' ></i>
+                <div class="info">
+                    <samp>Python</samp>
+                </div>
+                <div class="progress-line python">
+                    <span></span>
+                </div>
+            </div>   
+            <div class="bar"><i class='bx bxl-vuejs' style='color:#2fd277'  ></i>
+                <div class="info">
+                    <samp>Vue</samp>
+                </div>
+                <div class="progress-line vue">
+                    <span></span>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+</section>
+<div class="last-text">
+    <p>2025</p>
+</div>
+<a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+
+
+
+<script src="main.js"></script>
+    
+</body>
+</html>
+
+
+
+
+
